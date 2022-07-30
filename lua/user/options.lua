@@ -46,5 +46,6 @@ for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
+-- vim.g.netrw_banner = 0                   -- hide the info at the top of netrw
 -- vim.cmd "set whichwrap+=<,>,[,],h,l"    -- wrap lines with h and l
 -- vim.cmd [[set iskeyword+=-]]            -- treat - like part of the word

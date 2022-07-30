@@ -3,7 +3,7 @@ require('user.keymaps')
 require('user.plugins')
 
 -- Plugin configuration
-require('user.colorscheme')
+require('user.catppuccin')
 require('user.indent-blankline')
 require('user.lualine')
 require('user.gitsigns')
