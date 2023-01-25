@@ -1,3 +1,3 @@
-require("indent_blankline").setup {
+require('indent_blankline').setup {
   char = '▏'
 }

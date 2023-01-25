@@ -1,4 +1,4 @@
-vim.opt.completeopt={"menu","menuone","noselect"}
+vim.opt.completeopt={'menu','menuone','noselect'}
 
 -- luasnip setup
 local luasnip = require 'luasnip'
