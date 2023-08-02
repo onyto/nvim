@@ -25,7 +25,7 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Telescope
 keymap("n", "<Space>ff", ":Telescope find_files<CR>", opts)
-keymap("n", "<Space>rg", ":Telescope live_grep<CR>", opts)
+keymap("n", "<Space>fg", ":Telescope live_grep<CR>", opts)
 keymap("n", "<Space>fb", ":Telescope buffers<CR>", opts)
 keymap("n", "<Space>fh", ":Telescope help_tags<CR>", opts)
 keymap("n", "<Space>fk", ":Telescope keymaps<CR>", opts)

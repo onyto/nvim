@@ -50,7 +50,7 @@ require('lspconfig')['tsserver'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
     -- nvim-cmp
-    -- capabilities = capabilities,
+    capabilities = capabilities,
     -- Server-specific settings...
 }
 require('lspconfig')['rust_analyzer'].setup{
@@ -63,7 +63,7 @@ require('lspconfig')['rust_analyzer'].setup{
       ["rust-analyzer"] = {}
     }
 }
-require'lspconfig'.sumneko_lua.setup {
+require'lspconfig'.lua_ls.setup {
     on_attach = on_attach,
     flags = lsp_flags,
     -- nvim-cmp
@@ -82,7 +82,6 @@ require'lspconfig'.sumneko_lua.setup {
         workspace = {
           -- Make the server aware of Neovim runtime files
           library = vim.api.nvim_get_runtime_file("", true),
-          checkThirdParty = false,
         },
         -- Do not send telemetry data containing a randomized but unique identifier
         telemetry = {
