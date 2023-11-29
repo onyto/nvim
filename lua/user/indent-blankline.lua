@@ -1,3 +1,1 @@
-require('indent_blankline').setup {
-  char = '▏'
-}
+require('ibl').setup()
