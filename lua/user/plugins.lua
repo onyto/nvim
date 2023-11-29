@@ -38,7 +38,7 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-path' -- LSP source for nvim-cmp
   use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
-  use { 'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = { { 'nvim-lua/plenary.nvim' } } }
+  use { 'nvim-telescope/telescope.nvim', tag = '0.1.x', requires = { { 'nvim-lua/plenary.nvim' } } }
   use 'williamboman/mason.nvim' -- package manager for LSP, DAP, linters and formatters
   use 'williamboman/mason-lspconfig.nvim'
 
