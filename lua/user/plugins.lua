@@ -42,6 +42,8 @@ return require('packer').startup(function(use)
   use { 'nvim-telescope/telescope.nvim', tag = '0.1.x', requires = { { 'nvim-lua/plenary.nvim' } } }
   use 'williamboman/mason.nvim' -- package manager for LSP, DAP, linters and formatters
   use 'williamboman/mason-lspconfig.nvim'
+  -- use { 'JackMort/ChatGPT.nvim', requires = { { "MunifTanjim/nui.nvim" } } }
+  use { 'Exafunction/codeium.nvim', requires = { 'nvim-lua/plenary.nvim', 'hrsh7th/nvim-cmp' } }
 
   -- Automatically set up your configuration after cloning packer.nvim
   if packer_bootstrap then
